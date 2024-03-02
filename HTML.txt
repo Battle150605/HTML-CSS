@@ -1,0 +1,619 @@
+Curso em Video, 
+
+Modulo 1 CAP 2: 14/02/2024
+UTF-8 (nome da linguagem com acentos)
+Computador entende codigo quadrado
+Celulares e Internet entende tipo Onda Circular
+Multiplos do Byte
+1024 bytes = 1 kilobyte KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1TB
+MB = Megabytes - armazenamento
+Mb = Megabits  - transmissão
+DNS = Nome dos sites
+Dominio: Nome que identifica seu site // Não pode se ter 2 // Pago anualmente
+Hospedagem: Espaço para armazenar arquivos// Pode se ter varios// Pago Mensalmente
+---
+www.x - sub-dominio
+x - dominio
+.com/.x - protocolo
+/help | /x - Caminho na URL
+Tudo = URL
+--- CAP 3 MODULO 1
+HTML = focado em conteudo
+CSS = foco design
+Javascript = Interação em sites
+------------------ TAGS -------------------------
+HTML:
+<h1> TITULO </h1>
+<p> Paragrafo </p>
+<hr> Linha horizontal
+<br> quebra de linha
+&lt; = < (para mostrar no site sem  usar as tags)<!--LESSTHAN / GREATER THAN-->
+&gt; = > (para mostrar no site sem  usar as tags)<!--LESSTHAN / GREATER THAN-->
+&#x(numero do emoji na emojipedia); = emoji no site
+img src "" alt "" (coloca imagem no site)
+<link rel="shortcut icon" href="Icon Hearth.ico" type="image/x-icon"> (no href colocar o Icone)
+Strong (Negrito)
+em     (italico)
+TAG SMALL para Letras Pequenas
+TAG DEL para riscar o texto
+TAG INS para sublinhar o texto
+TAG SUP para usar na parte superior que nem o elevado da matematica
+TAG SUB para usar na parte inferior que nem o numero de atomos na quimica
+TAG MARK para Marcar um Texto
+TAG CODE para citar codigos
+TAG PRE para usar quebras de linha e espaços serão considerados
+TAG Q para se citar algo ou alguem
+TAG BLOCKQUOTE para quebrar a linha e citar alguem,pode ser adicionado a tag cite para citar a fonte (apenas no codigo)
+TAG ABBR para mostrar as abreviaçoes de maneira completa, exemplo : Wpp (whatzapp)
+TAG BDO l(left) ou r(right) inverter o texto
+TAG OL (ORDER LIST) lista ordernada (dentro da TAG se coloca type= para colocar o tipo de listas, com os valores 1(numerica) a/A (letras maiusculas e minusculas) e I/i(numero romano)
+TAG LI (LIST ITEM) item da lista, tag deve ser colocada dentro da TAG OL ou UL
+TAG UL (unordered list) lista sem ser ordernada (dentro da TAG se coloca type = para colocar o tipo de lista, com os valores disc (circulo cheio) circle(circulo) square (quadrado)
+TAG DL (definition list) lista de difiniçao
+TAG DT (definition title) titulo de definiçao (dentro do DL)
+TAG DD (definition description) descriçao da definiçao (dentro do DL)
+TAG a (usada para linkar um link em uma palavras no href,mas ele nao vai voltar ao seu site)
+TAG target é para abrir em uma aba nova (dentro da TAG a)
+TAG rel é para abrir em um site externo (dentro da TAG a)
+TAG picture (adicionar uma foto com variancia de tamanho) usada com a tag source
+TAG source  (adicionar a variancia e maximo de pixels que se pode para aparecer x imagem)
+TAG audio (adicionar audio no site)
+TAG controls (adicionar controles para seu audio no site)
+TAG autoplay (tocar o audio automaticamente no seu site)
+TAG WIDTH "(pixels)" para diminuir o tamanho (colocado dentro da tag)
+TAG VIDEO para colocar video no site
+TAG POSTER para colocar thumbnail no video (colocada dentro da tag VIDEO)
+TAG LOOP para colocar um loop no video (colocada dentro da tag VIDEO)
+TAG: LINK:CSS (usada para linkar um estilo css) (colocada dentro da tag HEAD)
+TAG MAIN (usada para mostrar o conteudo principal)
+TAG (CSS) box-shadow: pixel,pixel,pixel,cor (coloca uma sobra envolta do conteudo)
+TAG (CSS) margin: auto (coloca uma margem no site automatica, entao diminuindo ou nao o texto sempre sera centralizado)
+TAG (CSS) width : pixel (coloca a largura do site em pixel)
+TAG (CSS) border-radius: pixel (coloca o raio da borda do site)
+TAG (CSS) background color: cor (coloca cor no fundo do conteudo)
+TAG (CSS) font-size : 1em;(usada para tamanho de fonte)
+TAG (CSS) font-weight : (tipo ex:bold,normal,bolder,lighter) (muda o peso da fonte // Negrito)
+TAG (CSS) font-style: (italic ou normal) (texto normal ou italico)
+TAG (CSS) text-decoration: underline (texto sublinhado)
+TAG (CSS) text-align center,right,left,justify (alinhamento de texto)
+TAG id (colocada dentro de qualquer tag) serve para identificar uma tag de maneira especifica //usado como #
+TAG class (colocada dentro de qualquer tag) igual a tag id mas serve para marcar/identificar varias tags de uma vez //usado como ;
+TAG span (serve para colocar coisas dentro,por exemplo class/id)
+TAG (CSS) :: (pseudo-element)
+TAG (CSS) : (pseudo-class)
+TAG (CSS) > (children)
+TAG (CSS) . (class)
+TAG (CSS) # (id)
+(tag no css):hover {} (quando passar o mouse faz acontecer)
+(tag no css):active {} (mostra quando o link está ativo)
+(tag no css)::before {} (coloca uma coisa antes da tag)
+(tag no css)::after {} (coloca uma coisa depois da tag)
+(tag no css):visited {} (mostra quando o site foi visitado
+TAG (CSS)border-image: url(imagem que vai ser a borda) (tamanho da imagem) (repeat para repetir ou stretch para esticar) SHORTHAND
+TAG (CSS)border-image-source: url(Sem\ título.png); (na url a imagem que vai ser a borda)
+TAG (CSS)border-image-slice: 27; (quantidade de imagens que vai ter na borda ou tamanho dela)
+TAG (CSS)border-image-repeat: repeat; (repetir a imagem para formar a borda)
+TAG ABBR (abreviação) coloca o nome da coisa
+TAG (CSS) :root (guarda as configuraçoes do seu site)
+TAG (CSS :hover) transition-duration tempo (duraçao de transição)
+TAG (CSS) text-indent: 30px; (cria um espaço no começo do texto)
+TAG (CSS) line-height: 1em; (cria um espaço entre as linhas)
+TAG (CSS) font-size: 1.1em; (aumenta o tamanho da fonte)
+TAG (CSS) list-style-position: inside; (para colocar a lista dentro de um lugar) (usado detro da tag UL ou OL)
+TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da tag UL ou OL)
+TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo) (usado dentro de UL ou OL) (não é compativel com todos navegadores)
+TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
+-----------------------------------------------------------
+TIPOS DE @
+@charset "utf-8" (define o site para ter acentos)
+@import url();   (importa um link usado normalmente para fontes)
+@font-face {}    (importa uma fonte que está na mesma pasta do HTML)
+
+ 
+Front-end = HTML, CSS, JS (foco usuario)
+Back-End = PHP,JS,Python,Java(foco no servidor)
+Full stack = Front-end + Back-end
+TIPOGRAFIA SHORTHAND : 1-font-style -> font-weight -> font-size -> font-family (PRECISA SER EM ORDEM)
+---------------- MEU PRIMEIRO CODIGO ---------------------------- 15/02/2024
+head = configuraçao
+body = conteudo
+viewport = 100% da tela do navegador
+--------------------PARAGRAFOS------------------------------------15/02/2024
+NOVAS TAGS <br> e explicação
+-------------------SIMBOLOS E EMOJI NO SITE-----------------------15/02/2024
+EMOJIS E CARACTERES NO SITE; NOVAS TAGS &#x(numero do emoji na emojipedia);
+TAG PARA CARACTERES : &(nome da tag em ingles); ex: &copy
+-------------------IMAGENS E COPYRIGHT----------------------------15/02/2024
+SITES SEM COPYRIGHT
+Unsplash
+Pexels
+FreePik
+Rawpixel
+Pixabay
+Libreshot
+Wikimedia commons
+FORMATOS DE COMPACTAÇAO MAIS USADOS : JPEG e PNG
+------------------FORMATOS DE IMAGEM-----------------------------15/02/2024
+PNG = TRANSPARENTE E QUALIDADE
+JPEG = COMPACTAÇAO 
+TAMANHO MAXIMO DE ARQUIVO : 1500x1000 Resolução = 72/50
+REDIMENSIONAR AS IMAGENS DIMINUI O PESO NO SITE
+------------------IMAGEM NO SITE---------------------------------16/02/2024
+Podemos colocar uma imagem no site usando a tag "img src "" alt "" que é aonde está a imagem e o alt é o nome caso a imagem nao apareça
+NOVA TAG img src "" alt ""
+podemos colocar a imagem em outra pastar, precisando apenas colocar o link da past ex: "imagem/foto.png" e podemos copiar a URL de uma imagem e coloca-la
+-----------------ICONE DE FAVORITO DE SITE-----------------------16/02/2024
+SITE: IconArchive.com site de icones
+SITE: Favicon.cc para criar seu proprio Icone
+SITE: Favicon.io para gerar um icone da propria imagem ou um Icone de texto
+NOVA TAG : link:favicon (colocar o icon no href)
+exemplo: <link rel="shortcut icon" href="Icon Hearth.ico" type="image/x-icon">
+na /head (configuração)
+-----------------HIERARQUIA DE TITULOS---------------------------16/02/2024
+h1>h2>h3>h4>h5>h6
+Ajuste de tamanho para os Titulo e Subtitulos
+a cada h1,2,3,4,5,6 se coloca um paragrafo ou um subtitulo
+exemplo <h1> A HISTORIA DO BRASIL </h1>
+        <h2> Portugal </h2>
+         <p> Portugal chegou no Brasil... </p>
+se pode fazer isso ate o h6 com a hierarquia de titulos.
+-----------------Semantica do HTML5------------------------------16/02/2024
+HTML 5 NÃO É FOCADO EM FORMA, PARA ISSO SE USA O CSS
+HTML 4 ERA SIM FOCADO EM FORMA
+-----------------NEGRITO E ITALICO-------------------------------16/02/2024
+Negrito se usa a tag Strong (forte) para se destacar a força
+Italico ou Enfase se usa a TAG EM para se fazer enfase (italico)
+-----------------FORMATAÇOES ADICIONAIS--------------------------16/02/2024
+TAG MARK para Marcar um Texto
+Dentro da tag MARK se pode usar a TAG Style que é do CSS que serve para colocar uma cor
+se usar o Style na head e marcar a tag que quer colorir com {} podemos trocar a cor de todas as TAGS iguais
+TAG SMALL para Letras Pequenas e a TAG BIG nao se pode usar mais, afinal o SMALL tem funçao e o BIG tem forma. por isso o BIG nao é funcional
+TAG INS para sublinhar o texto
+TAG SUP para usar na parte superior que nem o elevado da matematica
+TAG SUB para usar na parte inferior que nem o numero de atomos na quimica
+TAG DEL para riscar o texto 
+------------------CITAÇÕES E CITAÇOES NO SEU SITE----------------16/02/2024
+TAG CODE para citar codigos
+TAG PRE para usar quebras de linha e espaços serão considerados
+TAG Q para se citar algo ou alguem
+TAG BLOCKQUOTE para quebrar a linha e citar alguem,pode ser adicionado a tag cite para citar a fonte (apenas no codigo)
+TAG ABBR para mostrar as abreviaçoes de maneira completa, exemplo : Wpp (whatzapp)
+TAG BDO l(left) ou r(right) inverter o texto
+----------------LISTAS EM HTML------------------------------------16/02/2024
+TAG OL (ORDER LIST) lista ordernada (dentro da TAG se coloca type= para colocar o tipo de listas, com os valores 1(numerica) a/A (letras maiusculas e minusculas) e I/i(numero romano)
+TAG LI (LIST ITEM) item da lista, tag deve ser colocada dentro da TAG OL ou UL
+TAG UL (unordered list) lista sem ser ordernada (dentro da TAG se coloca type = para colocar o tipo de lista, com os valores disc (circulo cheio) circle(circulo) square (quadrado)
+----------------LISTAS MISTAS E DE DEFINIÇAO----------------------16/02/2024
+TAG DL (definition list) lista de difiniçao
+TAG DT (definition title) titulo de definiçao (dentro do DL)
+TAG DD (definition description) descriçao da definiçao (dentro do DL)
+----------------LINKS E ANCORAS-----------------------------------16/02/2024
+TAG a (usada para linkar um link em uma palavras no href,mas ele nao vai voltar ao seu site)
+exemplo: Voce pode acessar meu <a href="https://www.instagram.com/battle150605_/" target="_blank" rel="external">instagram</a>
+a TAG target é para abrir em uma aba nova e o a TAG rel é para abrir em um site externo.
+Obs: TAG a (ancora); target(alvo); rel (relativo).
+----------------LINKS INTERNOS------------------------------------16/02/2024
+target : _blank (pagina em branco) _self (propria pagina)
+após linkar o arquivo para download na TAG a href, colocar a tag download "(nome do arquivo) type="application/(tipo de arquivo)
+exemplo:  <h1>Links para download</h1>
+    <ul><li> <a href="livro/apostila-html-css-javascript.pdf" download="apostila-html-css-javascript.pdf" type="application/pdf">Baixar o Livro PDF</a> </li>
+----------------DESAFIO-------------------------------------------16/02/2024
+Codigo:         
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone principal/Hopstarter-Soft-Scraps-User-Chat.16.png" type="image/x-icon">
+    <title>Desafio Social</title>
+</head>
+<body>
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu?</h2>
+    <img src="desafio.jpg" alt="Foto Minha">
+    <p>Eu sou o garoto da imagem acima, me chamo <strong>Pedro Bernardo</strong> e estou fazendo o curso de HTML no <strong>Curso em video</strong> tenho 18 anos de idade e estou começando agora</p>
+    <h1>Como falar comigo?</h1>
+    <ul><li><img src="icone/Icons8-Ios7-Logos-Instagram.16.png" alt="Instagram Logo"><a href="https://www.instagram.com/battle150605_/" target="_blank" rel="external">/battle150605_</a></li>
+     <li><img src="icone/Danleech-Simple-Linkedin.16.png" alt="Linkedin Logo"><a href="https://www.linkedin.com/in/pedro-campos-781b74256/" target="_blank" rel="external"> /Pedro Campos</a></li>
+    <li><img src="icone/Danleech-Simple-Github.16.png" alt="GitHub Icon"> <a href="https://github.com/Battle150605" target="_blank" rel="external">/Battle150605</a></li>
+<li><img src="icone/Dakirby309-Simply-Styled-YouTube.16.png" alt="Youtube icone"><a href="https://www.youtube.com/channel/UCwYZJCwUUoYP_Ove_AJ7tIg" target="_blank" rel="external">/Battle150605</a></li> <li><img src="icone/Dakirby309-Windows-8-Metro-Web-Twitter-alt-2-Metro.16.png" alt="Twiiter icone"><a href="https://twitter.com/battle150605" target="_blank" rel="external">/battle150605</a></li></ul>
+</body>
+</html>
+-------------IMAGEM DINAMICA-------------------------------------17/02/2024
+Imagem:
+
+Grande : 1000x1000
+Media  : 700x700
+Pequena: 300x300
+-------------IMAGEM QUE SE ADAPTA SOZINHA------------------------17/02/2024
+O codigo faz a imagem se adaptar para o tipo de tela, mudando o tamanho da imagem com a tag PICTURE, dentro da TAG PICTURE se deve colocar a TAG SOURDE MEDIA:TYPE para definir a midia que ira trocar,apos isso devemos trocar o min width para max width assim colocando um tamanho maximo para a tela
+codigo exemplo:
+ <picture>
+    <source media="(max-width:750px )" srcset="Imagens/Pequeno.png" type="image/png">
+    
+    <source media="(max-width:1050px )" srcset="Imagens/Media.png" type="image/png">
+    <img src="imagens/Grande.png" alt="Imagem Flexivel">
+</picture>
+
+**Codigo deve ser colocada em ordem crescente**
+--------------AUDIO NO SITE-------------------------------------17/02/2024
+para colocar um audio deve ser usado a TAG AUDIO e dentro dela, colocar as TAGS CONTROLS e AUTOPLAY
+exemplo:
+<audio src="midia/360ytmp3.com_64kbps-funny-meme-sounds.mp3" controls autoplay></audio>
+
+Os audios suportados nessa TAG são: MP3,WAV,OGG
+////////////////////
+Outra maneira de adicionar um audio no seu site é usando a TAG AUDIO mas excluindo o scr
+entre a tag audio e a outra adicionar a TAG SOURCE SCR TYPE para adicionar o audio:
+exemplo:
+
+<audio controls>
+<source src="midia/360ytmp3.com_64kbps-funny-meme-sounds.mp3" type="audio/mpeg">
+<p>Seu Navegador nao suporta esse tipo de audio</p>
+</audio>
+
+
+TYPE de Audio :
+audio/mpeg // MP3
+audio/ogg  // OGG
+audio/wav  // WAV
+-----------FORMATOS DE VIDEO PARA SEU SITE---------------------17/02/2024
+Compatibilidades : MP4,M4V,OGV,WEBM
+TAG WIDTH "(pixels)" para diminuir o tamanho (colocado dentro da tag)
+TAG VIDEO para colocar video no site
+TAG POSTER para colocar thumbnail no video (colocada dentro da tag VIDEO)
+TAG LOOP para colocar um loop no video (colocada dentro da tag VIDEO)
+
+exemplo:
+
+<video controls width="500">
+    <source src="videos/Video1.mp4" type="video/mp4">
+    <source src="videos/Video1(1).mp4" type="video/mp4">
+ <p>seu navegador nao tem suporte para este </p>
+</video>
+
+OBS: Videos hospedados são mais pesados assim custando mais banda larga para seu cliente, NAO RECOMENDAR.
+-----------------VIDEO YOUTUBE NO SITE (RECOMENDAVEL----------17/02/2024
+ir no video do Youtube e clicar em compartilhar e clicar em incorporar e pega o codigo html e colar ele no vscode
+para colocar do Vimeo é a mesma coisa
+exemplo:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=1FmSaTKZRUQm5ZaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+vantagens de cada serviço:
+
+Vimeo: Melhor qualidade
+       Não aparece outros videos
+       É pago
+
+Youtube: Qualidade Inferior
+         Aparece outros videos
+         É gratuito
+
+----------------DESAFIO 2 ------------------------------------19/02/2024
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Desafio 2.0</title>
+</head>
+<body>
+    <h1>Cursos para Aprender</h1>
+    <a href="Video HTML/HTML.html"><img src="thumb-html.png"  alt="Curso de HTMl" srcset="Curso HTML"></a>
+
+    <a href="Video JAVA/Java.html"><img src="thumb-js.png" alt="Curso de JAVA" srcset="Curso de Java"></a>
+    
+    <br><a href="Video PHP/Python.html"><img src="thumb-python.png" alt="Video Python" srcset=""></a>
+    <a href="Video Hardware/Hardware.html"><img src="thumb-hardware.png" alt="Curso Hardware" srcset=""></a>
+    
+</body>
+</html>
+
+(P2)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Html</title>
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Curso HTML</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=aU3glu2I2eWgPKHl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=1" target="_blank">Curso Completo HTML</a>
+    <br>
+    <a href="../index.html"> <img src="../back_arrow_icon_134660.png" src="Voltar" width="100"></a>
+</body>
+</html>
+(P3)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso do Java</title>
+    <link rel="shortcut icon" href="java.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Curso de Java</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sTX0UEplF54?si=2ngIdS1cbf6uqwMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <a href="https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR" target="_blank">Curso Completo</a>
+<br>
+<a href="../index.html"> <img src="../back_arrow_icon_134660.png" alt="Voltar" width="100" srcset=""></a>
+    
+</body>
+</html>
+(P4)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso PHP</title>
+    <link rel="shortcut icon" href="php.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Curso de PHP</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TfsO0BGvGn0?si=zkNoxgHqPl07x_2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br>
+    <a href="https://www.youtube.com/watch?v=TfsO0BGvGn0&list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_" target="_blank">Curso Completo</a>
+    <br>
+    <a href="../index.html"><img src="../back_arrow_icon_134660.png" alt="Voltar" width="100" srcset=""></a>
+    
+</body>
+</html>
+(P5)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Hardware</title>
+    <link rel="shortcut icon" href="hardware.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Curso de Hardware</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iT6E92Kt38o?si=ATUhscNln9MIHB0a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br><br>
+<a href="https://www.youtube.com/watch?v=iT6E92Kt38o&list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW" target="_blank">Curso completo Hardware</a>
+<br>
+<a href="../index.html"><img src="../back_arrow_icon_134660.png" width="100" alt="Voltar" srcset=""></a>
+--------------------------ESTILO CSS INLINE-------------------------20/02/2024
+Estilo Inline: usado na mesma pagina do HTML
+TAG Style (usada dentro de qualquer tag)
+TAG text:align (usada dentro de qualquer tag)
+TAG background color (usada dentro de qualquer tag)
+Modo CSS Não recomendado
+DESVANTAGEM:
+ NAO PODER MUDAR TODOS DE UMA VEZ
+ DIFICULDADE DE MUDAR ESTILO, DESORGANIZADO
+-------------------------ESTILO CSS INTERNO-------------------------20/02/2024
+Usada na TAG HEAD, colocando o que quer marcar abrindo chaves {} e colocando o CSS
+
+exemplo:
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Locais ou Internos</title>
+    <style>
+    body {
+        background-color: chartreuse;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;}
+    h1{
+        color: darkblue;
+        background-color: lightblue;
+    }
+    h2{
+        color: darkred;
+    }
+    p{
+        text-align: justify; text-decoration: underline;
+    }
+    </style>
+</head>
+
+DESVANTAGEM:
+CODIGO MAIOR QUE O DE HTML
+DIFICIL MUDAR OS CODIGOS
+SE FOR MAIS DE 1 PAGINA É DESVANTAGEM USA-LO
+------------------ESTILO CSS EXTERNO--------------------------------20/02/2024
+Estilo CSS Externo, se  usa com a TAG
+
+TAG: LINK:CSS
+criando um arquivo css e linkando ele, assim usando o mesmo metodo do interno para decorar
+exemplo:
+<link rel="stylesheet" href="style.css">
+
+clicando com shift no style.css,vc pode criar um arquivo css para poder codar
+
+no arquivo css, se coda que nem no estilo interno
+exemplo:
+
+@charset "UTF-8";
+
+body {
+    background-color: rgb(49, 48, 139);
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;}
+h1{
+    color: darkblue;
+    background-color: lightblue;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify; text-decoration: underline;
+}
+
+o @charset "UTF-8"; é usado para permitir acentos no css
+----------------MODULO 2----------------------------------------------20/02/2024
+
+----------------PSICOLOGIA DAS CORES----------------------------------21/02/2024
+
+Vermelho: raiva, paixão, fúria, ira, desejo, excitação, energia, velocidade, força, poder, calor, amor, agressão, perigo, fogo, sangue, guerra, violência
+Rosa: amor, inocência, saúde, felicidade, satisfação, romantismo, charme, brincadeira, leveza, delicadeza, feminilidade
+Amarelo: sabedoria, conhecimento, relaxamento, alegria, felicidade, otimismo, idealismo, imaginação, esperança, claridade, radiosidade, verão, desonestidade, covardia, traição, inveja, cobiça, engano, doença, perigo
+Laranja: humor, energia, equilíbrio, calor, entusiasmo, vibração, expansão, extravagância, excessivo, flamejante
+Verde: cura, calma, perseverança, tenacidade, autoconsciência, orgulho, imutabilidade natureza, meio ambiente, saudável, boa sorte, renovação, juventude, vigor, Primavera, generosidade, fertilidade, ciúme, inexperiência, inveja, imaturidade, destruição
+Azul: fé, espiritualidade, contentamento, lealdade, paz, tranquilidade, calma, estabilidade, harmonia, unidade, confiança, verdade, confiança, conservadorismo, segurança, limpeza, ordem, céu, água, frio, tecnologia, depressão
+Roxo/Violeta: erotismo, realeza, nobreza, espiritualidade, cerimônia, misterioso, transformação, sabedoria, conhecimento, iluminação, crueldade, arrogância, luto, poder, sensibilidade, intimidade
+Marrom: materialismo, excitação, terra, casa, ar livre, confiabilidade, conforto, resistência, estabilidade, simplicidade
+Preto: não, poder, sexualidade, sofisticação, formalidade, elegância, riqueza, mistério, medo, anonimato, infelicidade, profundidade, estilo, mal, tristeza, remorso, raiva
+Branco: sim, proteção, amor, respeito, mesura, pureza, simplicidade, limpeza, paz, humildade, precisão, inocência, juventude, nascimento, inverno, neve, bom, esterilidade, casamento (culturas ocidentais), morte (culturas orientais), frio, clínico, estéril
+Prata: riqueza, glamour, fascínio, diferença, natural, liso, suave, macio, elegante, tecnológico
+Ouro: preciosidade, riqueza, extravagância, calor, riqueza, opulência, prosperidade, grandeza
+
+Hexadecimal
+
+000000
+00(primeiros 00 são vermelho)
+00(segundos 00 são verde)
+00( terceiros são azul)
+então o 0000ff é um azul muito forte.
+------------HARMONIA DAS CORES---------------------------------------21/02/2024
+Cores opostas tem mais destaque
+Cores parecidas tem mais conforto de leitura
+Fundo preto com letras brancas é cansativo
+---------------------------------------------------------------------21/02/2024
+-----------DEGRADE NO CSS--------------------------------------------21/02/2024
+
+TAG (CSS) background-image: linear-gradient(to right (qual lado prefere) ,cor,cor,cor,cor);
+-----------DESAFIO NO CSS--------------------------------------------22/02/2024
+TAG MAIN (usada para mostrar o conteudo principal)
+TAG (CSS) box-shadow: pixel,pixel,pixel,cor (coloca uma sobra envolta do conteudo)
+TAG (CSS) margin: auto (coloca uma margem no site automatica, entao diminuindo ou nao o texto sempre sera centralizado)
+TAG (CSS) width : pixel (coloca a largura do site em pixel)
+TAG (CSS) border-radius: pixel (coloca o raio da borda do site) (caso seja 50% ele vira uma bola)
+TAG (CSS) background color: cor (coloca cor no fundo do conteudo)
+TAG (CSS) text-shadow pixel,pixel,pixel,cor (coloca sombra no texto)	
+----------TIPOGRAFIA------------------------------------------------22/02/2024
+
+Tamanho de Fonte: recomendado usar o "em" ou "px"
+Tamanho padrao de Fonte: 16px = 1em
+O Tamanho de Fonte "em" é mais recomendado por ser relativo
+
+TAG font-size : 1em;(usada para tamanho de fonte)
+TAG font-weight : (tipo ex:bold,normal,bolder,lighter) (muda o peso da fonte // Negrito)
+TAG font-style: (italic ou normal) (texto normal ou italico)
+TAG text-decoration: underline (texto sublinhado)
+----------SHORTHAND FONT--------------------------------------------22/02/2024
+1-font-style -> font-weight -> font-size -> font-family (PRECISA SER EM ORDEM)
+  exemplo:
+   font: normal normal 1em Arial;
+---------FONTES EXTERNAS--------------------------------------------22/02/2024
+para pegar uma fonte é so incorporar igual no video, sites recomendados:
+
+Google Fonts
+
+--------FONTES INTERNAS---------------------------------------------22/02/2024
+FORMATOS:
+OTF: -opentype
+TTF: -truetype
+-embdded-opentype
+-truetype-aat
+-svg
+para importar a fonte usamos a @
+@font-face {}
+---------ALINHAMENTO DE TEXTO---------------------------------------22/02/2024
+TAG (CSS) text-align center,right,left,justify (alinhamento de texto)
+---------SELETOR PERSONALIZADO ID CSS-------------------------------23/02/2024
+TAG id (colocada dentro de qualquer tag) serve para identificar uma tag de maneira especifica //usado como #
+TAG class (colocada dentro de qualquer tag) igual a tag id mas serve para marcar/identificar varias tags de uma vez //usado como ;
+TAG span (serve para colocar coisas dentro,por exemplo class/id)
+TAG (CSS) :: (pseudo-element)
+TAG (CSS) : (pseudo-class)
+TAG (CSS) > (children)
+TAG (CSS) . (class)
+TAG (CSS) # (id)
+---------PSEUDO CLASSES---------------------------------------------23/02/2024
+height = altura
+width  = largura
+
+(tag no css):hover {} (quando passar o mouse faz acontecer)
+(tag no css):active {} (mostra quando o link está ativo)
+(tag no css)::before {} (coloca uma coisa antes da tag)
+(tag no css)::after {} (coloca uma coisa depois da tag)
+(tag no css):visited {} (mostra quando o site foi visitado
+----------MODELO DE CAIXAS-----------------------------------------23/02/2024
+height - altura
+width  - largura
+border - borda
+padding - preenchemento
+margin - margem
+outline - contorno
+
+Box level = ocupa o paragrafo todo
+inline level = ocupa apenas o espaço necessario
+---------------GROUPING TAGS--------------------------------------23/02/2024
+TAG HEADER (cabeçalho)
+TAG MAIN   (principal)
+TAG FOOTER (rodapé)
+TAG NAV (navegação)
+TAG ASIDE (usado para se referir autor ou fazer uma observaçao)
+TAG SECTION (sessão, usada para diferenciar as sessoes)
+TAG ARTICLE (cria um artigo)
+--------------BORDAS DECORADAS-------------------------------26/02/2024
+TAG border-image: url(imagem que vai ser a borda) (tamanho da imagem) (repeat para repetir ou stretch para esticar) SHORTHAND
+TAG border-image-source: url(Sem\ título.png); (na url a imagem que vai ser a borda)
+TAG border-image-slice: 27; (quantidade de imagens que vai ter na borda ou tamanho dela)
+TAG border-image-repeat: repeat; (repetir a imagem para formar a borda)
+--------------DESAFIO----------------------------------------26/02/2024    
+TAG ABBR (abreviação) coloca o nome da coisa
+TAG (CSS) :root (guarda as configuraçoes do seu site)
+exemplo:
+:root {
+    --fundo: #B8E653;
+    --cuzin: #3D7A41;
+    --cabeçalho: #324733;
+    --link: #16E024;
+    --Letras: #34AD3C;
+    --escuro: #2E332E;
+    --branco: #ffffff;
+
+    --fontepadrao: Arial,Verdana,Helvetica,sans-serif;
+    --fontecab: "Bebas Neue", sans-serif;
+    --fontedroid: "droid" , sans-serif;
+}
+
+ele guardou as cores e fontes, para guardar algo sempre deve se usar dois traços.
+
+---------------
+
+* {margin :0px;
+   padding : 0px;} (retirar as bordas do site)
+
+TAG (CSS :hover) transition-duration tempo (duraçao de transição)
+TAG (CSS) text-indent: 30px; (cria um espaço no começo do texto)
+TAG (CSS) line-height: 1em; (cria um espaço entre as linhas)
+TAG (CSS) font-size: 1.1em; (aumenta o tamanho da fonte)
+TAG (CSS) list-style-position: inside; (para colocar a lista dentro de um lugar) (usado detro da tag UL ou OL)
+TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da tag UL ou OL)
+TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo)
+TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
+------------- Centralizar Video-----------------------------
+colocar uma classe na div que deve estar envelopada no video
+
+TAG (CSS) div.video{
+    background-color: rgb(3, 59, 3);
+    margin: 0px -17px 34px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+ }
+ div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+ }

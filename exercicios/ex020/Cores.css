@@ -1,0 +1,16 @@
+body { background-color: violet;
+
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+    font-family: sans-serif;
+}
+p {
+    color: #ffff00;
+    text-align: justify;
+    text-align: center;
+    text-decoration-line:underline;
+    border-style: solid;
+    border-color: black;
+}

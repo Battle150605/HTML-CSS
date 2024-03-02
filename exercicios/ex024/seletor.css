@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: #2B1773;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #2B26BF;
+    text-align: center;
+}
+
+h1#p1 {
+    color: #020B26;
+    text-align: center;
+}
+
+
+
+h2{
+    color: #00030D;
+    text-align: justify;
+}
+.bundamole {
+    color: aqua;
+    font-weight: bold;
+}
