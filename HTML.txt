@@ -106,6 +106,7 @@ TAG (CSS) list-style-position: inside; (para colocar a lista dentro de um lugar)
 TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da tag UL ou OL)
 TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo) (usado dentro de UL ou OL) (não é compativel com todos navegadores)
 TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
+TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -617,3 +618,6 @@ TAG (CSS) div.video{
     width: 90%;
     height: 90%;
  }
+
+-------------FUNDO COM IMAGEM------------------------------------
+TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
