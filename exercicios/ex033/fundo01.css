@@ -14,8 +14,8 @@ div.quadrado {
     border: 2px solid black;
     border-radius: 10px;
     background-color: lightgray;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 div#q1 {
@@ -28,4 +28,8 @@ div#q2{
 div#q3{
     background-image: url(imagens/pattern003.png);
 
+}
+
+div#q2:hover{
+    background-image: url(imagens/namorar.jpg);
 }
