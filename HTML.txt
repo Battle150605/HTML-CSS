@@ -107,6 +107,9 @@ TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da 
 TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo) (usado dentro de UL ou OL) (não é compativel com todos navegadores)
 TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
 TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
+TAG background-repeat: repeat; (é usado para repetir a imagem de fundo ou não repetir a imagem de fundo)
+TAG background-size: auto; (é usado para definir o tamanho da imagem de fundo)
+TAG background-position: left bottom; (definir aonde começa a imagem, por exemplo ela aparecer apenas o meio ou apenas o lado esquerdo baixo)
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -621,3 +624,6 @@ TAG (CSS) div.video{
 
 -------------FUNDO COM IMAGEM------------------------------------
 TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
+TAG background-repeat: repeat; (é usado para repetir a imagem de fundo ou não repetir a imagem de fundo)
+TAG background-size: auto; (é usado para definir o tamanho da imagem de fundo) ( cover; é o melhor,ele ajusta automaticamente para o site)
+TAG background-position: left bottom; (definir aonde começa a imagem, por exemplo ela aparecer apenas o meio ou apenas o lado esquerdo baixo)
