@@ -106,10 +106,15 @@ TAG (CSS) list-style-position: inside; (para colocar a lista dentro de um lugar)
 TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da tag UL ou OL)
 TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo) (usado dentro de UL ou OL) (não é compativel com todos navegadores)
 TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
-TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
-TAG background-repeat: repeat; (é usado para repetir a imagem de fundo ou não repetir a imagem de fundo)
-TAG background-size: auto; (é usado para definir o tamanho da imagem de fundo)
-TAG background-position: left bottom; (definir aonde começa a imagem, por exemplo ela aparecer apenas o meio ou apenas o lado esquerdo baixo)
+TAG (CSS) backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
+TAG (CSS) background-repeat: repeat; (é usado para repetir a imagem de fundo ou não repetir a imagem de fundo)
+TAG (CSS) background-size: auto; (é usado para definir o tamanho da imagem de fundo)
+TAG (CSS) background-position: left bottom; (definir aonde começa a imagem, por exemplo ela aparecer apenas o meio ou apenas o lado esquerdo baixo)
+TAG (CSS) SHORTHAND CSS background: (color) (image) (position) (repeat) (size/cover) (attachment/fixed) (a tag de "size" não funciona)
+TAG (CSS) POSITION : Absolute/relative; (muda o tipo de posição,caso seja a absoluta libera as tags left e top)
+TAG (CSS) LEFT : 50% (move a caixa para 50% para a esquerda)
+TAG (CSS) TOP  : 50% (move a caixa para 50% para cima)
+TAG (CSS) TRANSFROM: TRANSLATE (-50%,-50%)| (transforma a caixa para mover +50% para esquerda e cima, os valores negativos representam : esquerda,cima e os positivos representam: direita,baixo)	
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -604,7 +609,7 @@ TAG (CSS) list-style-position: inside; (para colocar a lista dentro de um lugar)
 TAG (CSS) columns: 2; (usada para definir as colunas da lista) (usado dentro da tag UL ou OL)
 TAG (CSS) list-style-type: '\2B50\00A0\0020'; (usada para definir o simbolo da lista, que é definido pelo numero (nesse caso: 2B50), o 00A0 ou 0020 que acrescenta um espaço após o simbolo)
 TAG (CSS) content: '\1F517'; (usada para colocar um simbolo no local) (pode ser usada em qualquer local) 
-------------- Centralizar Video-----------------------------
+------------- Centralizar Video----------------------------- 07/03/2024
 colocar uma classe na div que deve estar envelopada no video
 
 TAG (CSS) div.video{
@@ -622,8 +627,49 @@ TAG (CSS) div.video{
     height: 90%;
  }
 
--------------FUNDO COM IMAGEM------------------------------------
+-------------FUNDO COM IMAGEM------------------------------------08/03/2024
 TAG backgroud-image: url() ( é usado para colocar uma imagem no fundo do quadrado ou site)
 TAG background-repeat: repeat; (é usado para repetir a imagem de fundo ou não repetir a imagem de fundo)
 TAG background-size: auto; (é usado para definir o tamanho da imagem de fundo) ( cover; é o melhor,ele ajusta automaticamente para o site)
 TAG background-position: left bottom; (definir aonde começa a imagem, por exemplo ela aparecer apenas o meio ou apenas o lado esquerdo baixo)
+TAG background-attachment: fixed; (serve para deixar a imagem fixa no site)
+-------------Shorthand Background---------------------------------08/03/2024
+TAG SHORTHAND CSS background: (color) (image) (position) (repeat) (size/cover) (attachment/fixed) (a tag de "size" não funciona)
+-------------Centralização Vertical de Caixas--------------------09/03/2024
+para se centralizar uma caixa verticalmente deve se ter 2 coisas, um container como o article ou section e uma div para ser centralizada,apos ter isso 
+o CONTAINER deve ter a TAG POSITION: RELATIVE (para poder mudar o tipo de posição da caixa) e na div (caixa) deve ser a TAG POSITION: ABSOLUTE (posição absoluta) assim desbloqueando os comando left e top
+que se deve usar para centralizar a porcentagem de 50% então ficaria:
+
+.container {
+   background-color: black;
+   position: relative (apesar de que a posição relativa ja vem normalmente em uma div)
+}
+
+.caixa {
+   background-color: white;
+   position: absolute (absoluta)
+   left 50%;
+   top 50%;
+}
+
+com isso a div deve estar centralizada,mas não totalmente. para centralizar ela totalmente existe outro comando que é a TAG TRANSFORM: TRANSLATE (-50%, -50%)
+que com isso faz realmente ficar centralizado,quando positivo o valor ele vai para a direita e baixo, quando negativo vai para esquerda e cima.
+
+então a tag ficaria:
+
+.container {
+   background-color: black;
+   position: relative (apesar de que a posição relativa ja vem normalmente em uma div)
+}
+
+.caixa {
+   background-color: white;
+   position: absolute (absoluta)
+   left 50%;
+   top 50%;
+   transform: translate (-50%, -50%)
+}
+TAG CSS POSITION : Absolute/relative; (muda o tipo de posição,caso seja a absoluta libera as tags left e top)
+TAG CSS LEFT : 50% (move a caixa para 50% para a esquerda)
+TAG CSS TOP  : 50% (move a caixa para 50% para cima)
+TAG CSS TRANSFROM: TRANSLATE (-50%,-50%)| (transforma a caixa para mover +50% para esquerda e cima, os valores negativos representam : esquerda,cima e os positivos representam: direita,baixo)
