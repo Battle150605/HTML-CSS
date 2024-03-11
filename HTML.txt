@@ -114,7 +114,13 @@ TAG (CSS) SHORTHAND CSS background: (color) (image) (position) (repeat) (size/co
 TAG (CSS) POSITION : Absolute/relative; (muda o tipo de posição,caso seja a absoluta libera as tags left e top)
 TAG (CSS) LEFT : 50% (move a caixa para 50% para a esquerda)
 TAG (CSS) TOP  : 50% (move a caixa para 50% para cima)
-TAG (CSS) TRANSFROM: TRANSLATE (-50%,-50%)| (transforma a caixa para mover +50% para esquerda e cima, os valores negativos representam : esquerda,cima e os positivos representam: direita,baixo)	
+TAG (CSS) TRANSFROM: TRANSLATE (-50%,-50%)| (transforma a caixa para mover +50% para esquerda e cima, os valores negativos representam : esquerda,cima e os positivos representam: direita,baixo)
+TAG (CSS) font-variant: normal/caps/small-caps (serve para colocar a fonte em letras maiusculas,minusculas ou maisculas com tamanho de minusculas)
+TAG (CSS)background-attachment: fixed (faz o efeito paralax)
+TAG (CSS) border-collapse: collapse; (junta as linhas da tabela ou separa elas)
+TAG table (tabela)
+TAG tr (table row) (linha)
+TAG td (table data) (data)
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -673,3 +679,45 @@ TAG CSS POSITION : Absolute/relative; (muda o tipo de posição,caso seja a abso
 TAG CSS LEFT : 50% (move a caixa para 50% para a esquerda)
 TAG CSS TOP  : 50% (move a caixa para 50% para cima)
 TAG CSS TRANSFROM: TRANSLATE (-50%,-50%)| (transforma a caixa para mover +50% para esquerda e cima, os valores negativos representam : esquerda,cima e os positivos representam: direita,baixo)
+----------PROJETO CORDEL---------------------------------------------10/03/2024
+view height: metodo de medida usada para a visão que você tem do site, bom usar no padding
+
+TAG (CSS) font-variant: normal/caps/small-caps (serve para colocar a fonte em letras maiusculas,minusculas ou maisculas com tamanho de minusculas)
+-------EFEITO PARALAX SIMPLES----------------------------------------
+TAG (CSS)background-attachment: fixed (faz o efeito paralax)
+------TABELAS--------------------------------------------------------11/03/2024
+TAG table (tabela)
+Hierarquia de Tabelas Simples:
+Table -> Table Row(linhas de tabela) -> Table Header (cabeçalho de tabela) e Table Data (dado de tabela)
+TAG tr (table row) (linha)
+TAG td (table data) (data)
+exemplo: 
+  <table>
+   <tr>
+    <td>A1</td>
+    <td>B1</td>
+    <td>C1</td>
+   </tr>
+   <tr>
+    <td>A2</td>
+    <td>B2</td>
+    <td>C2</td>
+   </tr>
+   <tr>
+    <td>A3</td>
+    <td>B3</td>
+    <td>C3</td>
+   </tr>
+   <tr>
+    <td>A4</td>
+    <td>B4</td>
+    <td>C4</td>
+   </tr>
+
+Tabela de quatro linhas (tr) cada linha com 3 dados (td)
+
+ Bordas de Tabela
+
+TAG (CSS) border-collapse: collapse; (junta as linhas da tabela ou separa elas)
+
+
