@@ -749,7 +749,6 @@ para dizer ao HTML que se tem o titulo de uma coluna se usa a tag scope= col(col
 ------------------------CABEÇALHO GRUDADO--------------------------------------------------------
 TAG (CSS) na table { position: relative} (posição relativa) após isso, TAG (CSS) thead>tr>th {postition: sticky; top: 0 (ou -1px para ficar melhor); (é bom colocar um background-color)} (cabeçalho grudado)
 ------------------------MESCLAGEM DE CELULAS----------------------------------------------------13/03/2024
-
 para mesclar as celulas, deve se usar a tag <td colspan="2">x</td> ou tira o colspan (coluna) e coloca rowspan(linha) para mesclar as linhas
 -----------------------MARCAR COLUNAS-----------------------------------------------------------13/03/2024
 para marcar colunas usamos a tag:
