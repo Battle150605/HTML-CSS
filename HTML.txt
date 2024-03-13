@@ -121,6 +121,13 @@ TAG (CSS) border-collapse: collapse; (junta as linhas da tabela ou separa elas)
 TAG table (tabela)
 TAG tr (table row) (linha)
 TAG td (table data) (data)
+TAG thead (cabeça da tabela)
+TAG tbody (corpo da tabela)
+TAG tfoot (pé da tabela)
+TAG (CSS) vertical-align: top(cima),middle(meio),bottom(baixo); (usado para alinhamento vertical de uma tabela)
+TAG <th scope= "col ou row" (para dizer que é o titulo de uma coluna ou linha) (col- coluna) (row- linha)
+TAG (CSS) :nth-child(2n) (a cada 2 linhas, uma sera diferente) (subclasse)
+TAG (CSS) na table { position: relative} (posição relativa) após isso, TAG (CSS) thead>tr>th {postition: sticky; top: 0 (ou -1px para ficar melhor); (é bom colocar um background-color)} (cabeçalho grudado)
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -720,4 +727,21 @@ Tabela de quatro linhas (tr) cada linha com 3 dados (td)
 
 TAG (CSS) border-collapse: collapse; (junta as linhas da tabela ou separa elas)
 
+------------------------TABELAS MANEIRA CORRETA E ORGANIZADA-------------------------------------13/03/2024
+tabelas são que nem html, pode ter, header,body e footer que serão:
+TAG caption (legenda/titulo da tabela)
+TAG thead (cabeça da tabela)
+TAG tbody (corpo da tabela)
+TAG tfoot (pé da tabela)
+
+TAG (CSS) vertical-align: top(cima),middle(meio),bottom(baixo); (usado para alinhamento vertical de uma tabela)
+TAG <th scope= "col ou row" (para dizer que é o titulo de uma coluna ou linha) (col- coluna) (row- linha)
+para dizer ao HTML que se tem o titulo de uma coluna se usa a tag scope= col(coluna) ou row(linha) usado na TAG th
+------------------------EFEITO ZEBRADO-----------------------------------------------------------13/03/2024
+
+ TAG (CSS) tr:nth-child(2n) (a cada 2 linhas, uma sera diferente)
+ TAG (CSS) :nth-child(2n) (a cada 2 linhas, uma sera diferente) (subclasse) (pode se usar o odd (impar) ou even (par))
+------------------------CABEÇALHO GRUDADO--------------------------------------------------------
+TAG (CSS) na table { position: relative} (posição relativa) após isso, TAG (CSS) thead>tr>th {postition: sticky; top: 0 (ou -1px para ficar melhor); (é bom colocar um background-color)} (cabeçalho grudado)
+------------------------MESCLAGEM DE CELULAS----------------------------------------------------13/03/2024
 
