@@ -128,6 +128,11 @@ TAG (CSS) vertical-align: top(cima),middle(meio),bottom(baixo); (usado para alin
 TAG <th scope= "col ou row" (para dizer que é o titulo de uma coluna ou linha) (col- coluna) (row- linha)
 TAG (CSS) :nth-child(2n) (a cada 2 linhas, uma sera diferente) (subclasse)
 TAG (CSS) na table { position: relative} (posição relativa) após isso, TAG (CSS) thead>tr>th {postition: sticky; top: 0 (ou -1px para ficar melhor); (é bom colocar um background-color)} (cabeçalho grudado)
+TAG <colgroup> (grupo de colunas) e dentro da tag,usamos a tag <col> (coluna) para marcar 
+TAG <col> (coluna)                
+tag <td colspan="2">x</td> ou tira o colspan (coluna) e coloca rowspan(linha) para mesclar as linhas
+TAG span=3 (dentro da tag <col> (expande o numero de colunas)
+TAG (CSS) overflow-x: auto (cria um scroll apenas na div) 
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -745,3 +750,12 @@ para dizer ao HTML que se tem o titulo de uma coluna se usa a tag scope= col(col
 TAG (CSS) na table { position: relative} (posição relativa) após isso, TAG (CSS) thead>tr>th {postition: sticky; top: 0 (ou -1px para ficar melhor); (é bom colocar um background-color)} (cabeçalho grudado)
 ------------------------MESCLAGEM DE CELULAS----------------------------------------------------13/03/2024
 
+para mesclar as celulas, deve se usar a tag <td colspan="2">x</td> ou tira o colspan (coluna) e coloca rowspan(linha) para mesclar as linhas
+-----------------------MARCAR COLUNAS-----------------------------------------------------------13/03/2024
+para marcar colunas usamos a tag:
+TAG <colgroup> (grupo de colunas) e dentro da tag,usamos a tag <col> (coluna) para marcar 
+TAG <col> (coluna) (dentro da tag <colgrouo>)
+TAG span=3 (dentro da tag <col> (expande o numero de colunas)  
+------------------------TABELA RESPONSIVA--------------------------------------------------------13/03/2024          
+Envelopar a tabela (<table>) e criar uma div (<div>) dar um classe para a div e no css colocar a tag
+TAG (CSS) overflow-x: auto (cria um scroll apenas na div) 
