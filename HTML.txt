@@ -758,3 +758,22 @@ TAG span=3 (dentro da tag <col> (expande o numero de colunas)
 ------------------------TABELA RESPONSIVA--------------------------------------------------------13/03/2024          
 Envelopar a tabela (<table>) e criar uma div (<div>) dar um classe para a div e no css colocar a tag
 TAG (CSS) overflow-x: auto (cria um scroll apenas na div) 
+------------------------IFRAME-------------------------------------------------------------------13/03/2024
+TAG <iframe> (coloca um site numa inline) 
+Tamanho padrao de iframe é 300x150px
+Iframe é bom para colocar seus proprios sites dentro de outros sites.
+------------------------IFRAME COM LINKS PARA NAVEGAÇAO------------------------------------------13/03/2024
+para usar a navegação do iframe com Links, o iframe tem que ter um "name"
+
+<iframe name="nome">
+após isso, no link você coloca o link normalmente e no target="nome" (você coloca o nome), com isso, ao clicar no link,ele ira abrir no iframe.
+-----------
+criar um HTML dentro do iframe,para isso você deve usar a tag
+
+<iframe srcdoc="<h1>conteudo html</h1>"> </iframe>
+dentro do srcdoc, você deve colocar o seu codigo html,mas é recomendado criar outra pagina apenas para colocar la dentro.
+------------------------INCONSISTENCIA IFRAMES--------------------------------------------------13/03/2024
+
+
+
+
