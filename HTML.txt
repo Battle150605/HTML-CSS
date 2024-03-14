@@ -133,6 +133,9 @@ TAG <col> (coluna)
 tag <td colspan="2">x</td> ou tira o colspan (coluna) e coloca rowspan(linha) para mesclar as linhas
 TAG span=3 (dentro da tag <col> (expande o numero de colunas)
 TAG (CSS) overflow-x: auto (cria um scroll apenas na div) 
+TAG <iframe> (coloca um site numa inline)
+TAG (CSS) transition: transform(exemplo) 0.5s (tempo)
+TAG (CSS) box-sizing: border-box; (faz a borda fazer parte do item)
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -773,6 +776,19 @@ criar um HTML dentro do iframe,para isso você deve usar a tag
 <iframe srcdoc="<h1>conteudo html</h1>"> </iframe>
 dentro do srcdoc, você deve colocar o seu codigo html,mas é recomendado criar outra pagina apenas para colocar la dentro.
 ------------------------INCONSISTENCIA IFRAMES--------------------------------------------------13/03/2024
+facil de invadir,abre portas para outros sites
+------------------------Segurança Iframes-------------------------------------------------------14/03/2024
+na tag <iframe> se deve usar os valores <iframe sandbox="sandbox" e referrerpolicy="no-referrer"> para tornar o iframe mais seguro, na opção de sandbox, tem como permitir formularios e outras coisas
+------------------------Projeto Redes sociais---------------------------------------------------14/03/2024
+position: absolute e top, left são bem uteis para colocar no centro (centralizar, centro) o conteudo.
+ 100vh (viewheight) e 100vw (viewwidth) são bem uteis para sites responsivos
+TAG (CSS) box-sizing: border-box; (faz a borda fazer parte do item)
+no :hover é bom usar transform
+TAG (CSS) transition: transform(exemplo) 0.5s (tempo)
+Recomendado usar o mesmo css.
+FINALIZADO
+------------------------Setup Imagens----------------------------------------------------------14/03/2024
+
 
 
 
