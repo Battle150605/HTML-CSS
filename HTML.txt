@@ -798,7 +798,7 @@ no input:
 
 tag: name"nome" (mais util no php e no html)
 tag: id"nome"   (mais util no javascript)
-
+tag: value= Jesus/5 (coloca um valor/algo que ja vem preenchido no formulario,funciona no formulario de numeros)
 TAG <label for=" (coloca o id dentro) "> (usada para grudar o nome do formulario e o formulario) (usada dentro do html, faz diferença no codigo) 
 
 ENVIO DE FORMULARIOS
@@ -815,9 +815,18 @@ CAMPO OBRIGATORIO : Subtag na <input required> (requerido)
 
 Tamanho: (CSS) size: 
 
-NOME DENTRO DO FORMULARIO: Placeholder:
+NOME DENTRO DO FORMULARIO: placeholder="NOME COMPLETO" (coloca o nomne dentro do <input>)
 
-COMPLETAR AUTOMATICO : Autocomplete= name(nome) new-password(nova senha)
+COMPLETAR AUTOMATICO : Autocomplete= name(nome) new-password(nova senha) (completa automatico no <input>)
+
+FORMULARIO DE NUMEROS:
+
+TAGS NO INPUT 
+
+min (minimo)
+max (maximo)
+step (0.1) (se for 0.1, vai aumentar em 0.1 cada clique na seta para cima e vai permitir numeros quebrados como 5.2)
+value= (coloca algo para ja ser preenchido automatico)
 
 
 
