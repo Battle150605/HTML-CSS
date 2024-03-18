@@ -787,9 +787,37 @@ no :hover é bom usar transform
 TAG (CSS) transition: transform(exemplo) 0.5s (tempo)
 Recomendado usar o mesmo css.
 FINALIZADO
-------------------------Setup Imagens----------------------------------------------------------14/03/2024
+------------------------Formularios----------------------------------------------------------14/03/2024
+TAG <form> (formulario)
+TAG <input> (colocada dentro de formulario) (colocar)
+
+na tag <form> se pode colocar a função autocomplete, <form autocomplete="off"> (para desligar o autopreenchimento ou "on" para liga-lo)
+tambem na tag <form> se deve colocar a função action, <form action="cadastro.php"> (para guardar os dados do seu usuario)
+
+no input:
+
+tag: name"nome" (mais util no php e no html)
+tag: id"nome"   (mais util no javascript)
+
+TAG <label for=" (coloca o id dentro) "> (usada para grudar o nome do formulario e o formulario) (usada dentro do html, faz diferença no codigo) 
+
+ENVIO DE FORMULARIOS
+
+PADRAO: GET (normal, não seguro)
+	POST(oculto mas não seguro)
+
+METODO SEGURO: Aprender no HTPPS
+
+CAMPO OBRIGATORIO : Subtag na <input required> (requerido)
+		    Subtag na <input required minlength = 8> ( o minimo de letras/numeros é 8)		
+					      maxlength = 15 (numero maximo de letras/numeros é 15)
 
 
+Tamanho: (CSS) size: 
+
+NOME DENTRO DO FORMULARIO: Placeholder:
+
+COMPLETAR AUTOMATICO : Autocomplete= name(nome) new-password(nova senha)
 
 
 
