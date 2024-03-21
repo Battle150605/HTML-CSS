@@ -136,6 +136,13 @@ TAG (CSS) overflow-x: auto (cria um scroll apenas na div)
 TAG <iframe> (coloca um site numa inline)
 TAG (CSS) transition: transform(exemplo) 0.5s (tempo)
 TAG (CSS) box-sizing: border-box; (faz a borda fazer parte do item)
+TAG fieldset (agrupa dados e cria uma borda)
+TAG legend (cria uma legenda para o fieldset)
+TAG <form> (formulario)
+TAG <input> (colocada dentro de formulario) (colocar)
+TAG <input type="checkbox" name="esbas" id="esbas"> <label for="esbas">Basquete</label> (formulario checkbox)
+TAG <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label> (formulario RadioCheck)
+          
 -----------------------------------------------------------
 TIPOS DE @
 @charset "utf-8" (define o site para ter acentos)
@@ -827,6 +834,59 @@ min (minimo)
 max (maximo)
 step (0.1) (se for 0.1, vai aumentar em 0.1 cada clique na seta para cima e vai permitir numeros quebrados como 5.2)
 value= (coloca algo para ja ser preenchido automatico)
+
+ESTUDAR MAIS SOBRE RegEx
+
+---------------------------------------------------
+
+TAG fieldset (agrupa dados e cria uma borda)
+TAG legend (cria uma legenda para o fieldset)
+
+
+---------------------------------------------------CHECK BOX E RADIO BOX-------------------------------------------------------------------
+
+Na RadioBox (escolher uma opção) para arrumar o problema das duas bolinhas se usa o mesmo "name"
+
+exemplo:
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+    </fieldset> 
+
+o name=sexo, por que é para escolher o sexo, isso só funciona na RadioBox
+
+
+
+Checkbox (caixa de marcar)
+
+exemplo:
+
+<fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esbas" id="esbas"> <label for="esbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="esfut"><label for="esfut">Futebol</label><br>
+            <input type="checkbox" name="esnat" id="esnat"><label for="esnat">Natação</label><br>
+            <input type="checkbox" name="esvol" id="esvol"><label for="esvol">Volei</label><br>
+            <input type="checkbox" name="esten" id="esten"><label for="esten">Tenis</label>
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
