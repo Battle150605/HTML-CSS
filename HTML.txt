@@ -874,8 +874,9 @@ exemplo:
             <input type="checkbox" name="esten" id="esten"><label for="esten">Tenis</label>
 </fieldset>
 
-
-
+Input type=color (cor)
+Input type=range (nivel de satistação, etc)
+Input type=file  (enviar arquivo) | para enviar arquivo, o method tem que ser POST nao pode ser GET
 
 
 
