@@ -934,5 +934,21 @@ MENSAGEM /AREA DE TEXTO EM BRANCO
 
 
 
+----------------------------------------------------- JAVASCRIPT?????????????? ---------------------------------------------------------------------------
+TAG OUTPUT (identico ao INPUT mas não se pode mexer, quem mexe é apenas o HTML)
+
+JAVASCRIPT PARA SOMA= oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)"> (oninput (ao colocar)="soma(id do output).innerHTML(dentro do HTML) = Number(n1.value) (Numero(valor do ID numero1) +(soma) Number(n2.value) (Numero(valor do ID Numero2)
+
+
+
+    <p>
+        <label for="n1">Numero1</label>
+        <input type="number" name="n1" id="n1" min="0" max="50" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)"> <br> <br>
+        <label for="n2">Numero2</label>
+        <input type="number" name="n2" id="n2" min="0" max="50" required oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)"> <br><br>
+        <label for="soma">Soma:</label>
+        <output name="soma" id="soma">0
+        </output>
+
 
 
