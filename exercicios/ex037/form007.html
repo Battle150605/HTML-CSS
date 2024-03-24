@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form autocomplete="off">
+        <p>Nome: <input type="text" name="Nome" id="nome"></p>
+        <p>Sobrenome: <input type="text" name="Sobrenome" id="Sobrenome"></p>
+        <input type="submit" value="enviar">
+        <p>
+            <label for="est">Estado</label>
+            <select name="estado" id="est">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+
+
+            </select>
+        </p>
+
+        <p><label for="prof">Profissão</label>
+            <input type="text" name="prof" id="prof" list="listprof">
+            <datalist id="listprof">
+                <option value="Dev">Desenvolvedor</option>
+                <option value="Prof">Professor</option>
+                <option value="Est">Estudadante</option>
+                <option value="fax">Faxineiro</option>
+
+
+
+            </datalist>
+        
+        
+        </p>
+
+
+
+        <p>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+        </p>
+    </form>
+    
+</body>
+</html>

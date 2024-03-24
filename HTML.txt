@@ -810,8 +810,8 @@ TAG <label for=" (coloca o id dentro) "> (usada para grudar o nome do formulario
 
 ENVIO DE FORMULARIOS
 
-PADRAO: GET (normal, não seguro)
-	POST(oculto mas não seguro)
+PADRAO: GET (normal, não seguro) (LIMITADO A 3000kb)
+	POST(oculto mas não seguro) (SEM LIMITE DE kb)
 
 METODO SEGURO: Aprender no HTPPS
 
@@ -879,12 +879,57 @@ Input type=range (nivel de satistação, etc)
 Input type=file  (enviar arquivo) | para enviar arquivo, o method tem que ser POST nao pode ser GET
 
 
+----------------------------------LISTAS SELECIONAVEIS----------------------------------------------------------------
+
+Lista do Tipo Estado
+
+TAG SELECT (selecionar) (serve para criar uma lista selecionavel)
+TAG OPTION (opção)      (serve para criar uma opção para a lista)
+TAG DATALIST (lista de dados) (é identico ao SELECT mas serve para um input)
+TAG TEXTAREA (Area de Texto) (Area para Mensagem)
+
+<p>
+            <label for="est">Estado</label>
+            <select name="estado" id="est">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+
+
+            </select>
+        </p>
+
+
+
+LISTA SELECIONAVEL + PODE ESCREVER UMA OPÇÂO
+
+Para fazer isso devemos usar a TAG DATALIST e dar a ela um id, após isso criar as option e colocar no INPUT uma subtag que se chama LIST que deve ter
+o ID da DATALIST
 
 
 
 
 
+        <p><label for="prof">Profissão</label>
+            <input type="text" name="prof" id="prof" list="listprof">
+            <datalist id="listprof">
+                <option value="Dev">Desenvolvedor</option>
+                <option value="Prof">Professor</option>
+                <option value="Est">Estudadante</option>
+                <option value="fax">Faxineiro</option>
 
+
+
+            </datalist>
+
+
+
+MENSAGEM /AREA DE TEXTO EM BRANCO
+
+        <p>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+        </p>
 
 
 
