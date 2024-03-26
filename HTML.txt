@@ -954,6 +954,7 @@ JAVASCRIPT PARA SOMA= oninput="soma.innerHTML = Number(n1.value) + Number(n2.val
 
 ---------------------------------------------------MEDIA QUERIES-------------------------------------------------------------------------------------------
 
+TAG (CSS) display: none; (faz o item NÃO aparecer, na impressora ou no Media queries)
 
 
 
